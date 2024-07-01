@@ -1,0 +1,909 @@
+*{
+    margin: 0;
+}
+
+/* Header Starts Here */
+.img_logo{
+    width:130px;
+    height:80px;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left:80px;
+}
+.res_img{
+    visibility: hidden;
+}
+.navbar{
+    background: white;
+    position: relative;
+    height:80px;
+}
+@font-face {
+    font-family: montserrat ;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: palaquin;
+    src: url('../fonts/Palanquin-Bold.ttf');
+}
+.menu{
+    position:absolute;
+    right:400px; 
+    top:10px;  
+}
+.menu ul li{
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    color:grey;
+    font-size: 20px;
+    line-height: 60px;
+    font-family: montserrat;
+}
+/* Header Ends Here */
+
+/* Section Starts Here */
+.section{
+    position: absolute;
+
+}
+.sec1_img img{
+    position: absolute;
+    left:600px;
+    height: 1000px;
+    width:900px;
+    top: 20px;
+    border-radius: 50px;
+}
+.h4_sec{
+    font-family: monstserrat;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: orange;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: montserrat;  
+
+}
+.sec1_h1{
+    position: relative;
+    top:-46;
+    font-size: 82px;
+    font-family: palaquin;
+    font-weight: bold;
+    left: -317px;
+    white-space: pre-wrap;
+}
+.nike{
+    color: orange;
+}
+.sec1_p1{
+    font-family: montserrat;
+    font-weight: lighter;
+    position: absolute;
+    font-size: 25px;
+    color: grey;
+    white-space: pre-wrap;
+    left: -55px;
+    top: 505px;
+}
+.btn{
+    background-color: orange;
+    color: white;
+    border: 17px solid orange;
+    font-family: montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 699px;
+    left:51px;
+    
+}
+
+.btn_img{
+    width: 36px;
+    height: 23px;
+    margin-left: 10px;
+   
+}
+
+.sec1_div{
+    display:flex;
+    flex-flow: row wrap-reverse;
+    gap: 2em;
+    margin-top:-306px;
+    margin-left: 47px;
+}
+.sec1_p{
+    font-family: palaquin;
+    font-size: 62px;
+    font-weight: bold;
+}
+.sec1_p2{
+    font-family: montserrat;
+    font-weight: normal;
+    font-size: 20px;
+    color: gray;
+}
+
+
+
+.small_pic{
+    display:flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-end;
+    gap: 4em;
+    margin-top: 420px;
+    margin-left: 643px;
+}
+.small_pic1{
+    z-index: 1;
+}
+.small_pic1 img{
+    border-radius: 50px;
+}
+.small_pic img:hover{
+    border: 2px solid orange;
+}
+
+
+
+
+.sec1_h2{
+    font-family: palaquin;
+    position:absolute;
+    top:126%;
+    left: 55px;
+    font-size:56px;
+    font-weight: bold;
+}
+.sec1_h2 span{
+    color: orange;
+}
+.sec1_para{
+    white-space: pre-wrap;
+    position: absolute;
+    top:136%;
+    left:-22px;
+    font-family: montserrat;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.sec2_div{
+    position: absolute;
+    top: 150%;
+    left: 90px;
+}
+.sec2_div img{
+    border-radius: 30px;
+}
+.sec2_div h3{
+    font-size: 29px;
+    font-family:palaquin;
+    font-weight:bold;
+}
+.sec2_div p{
+    font-size: 26px;
+    font-family:montserrat;
+    font-weight:bold;
+    color: orange;
+}
+
+.sec2_div2{
+    position: absolute;
+    top: 150%;
+    left: 438px;
+}
+.sec2_div2 img{
+    border-radius: 30px;
+}
+.sec2_div2 h3{
+    font-size: 29px;
+    font-family:palaquin;
+    font-weight:bold;
+}
+.sec2_div2 p{
+    font-size: 26px;
+    font-family:montserrat;
+    font-weight:bold;
+    color: orange;
+}
+
+.sec2_div3{
+    position: absolute;
+    top: 150%;
+    left: 773px;
+}
+.sec2_div3 img{
+    border-radius: 30px;
+}
+.sec2_div3 h3{
+    font-size: 29px;
+    font-family:palaquin;
+    font-weight:bold;
+}
+.sec2_div3 p{
+    font-size: 26px;
+    font-family:montserrat;
+    font-weight:bold;
+    color: orange;
+}
+
+
+.sec2_div4{
+    position: absolute;
+    top: 150%;
+    right:65px;
+}
+.sec2_div4 img{
+    border-radius: 30px;
+}
+.sec2_div4 h3{
+    font-size: 29px;
+    font-family:palaquin;
+    font-weight:bold;
+}
+.sec2_div4 p{
+    font-size: 26px;
+    font-family:montserrat;
+    font-weight:bold;
+    color: orange;
+}
+
+
+
+.section2_div h2{
+    position: absolute;
+    top: 278%;
+    left:-10%;
+    font-family: palaquin;
+    font-weight: bold;
+    font-size: 68px;
+    white-space: pre-wrap;
+}
+.section2_div span{
+    color:orange;
+}
+.section2_div p{
+    position: absolute;
+    top:331%;
+    left: 2%;
+    font-family: montserrat;
+    font-size: 22px;
+    white-space: pre-wrap;
+    color: gray;
+}
+.section2_div button{
+    background-color: orange;
+    color: white;
+    border: 17px solid orange;
+    font-family: montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 374%;
+    left:121px;
+}
+.section2_div img{
+    position: absolute;
+    top: 298%;
+    right: 2%;
+    border-radius: 30px;
+}
+
+
+.section2_div2{
+    display: flex;
+    flex-flow: row; 
+    position: absolute;
+    top: 400%;
+    
+    
+}
+.section2_div2>div{
+    margin: 50px;
+    padding: 34px;
+    border: 2px solid white;
+    border-radius: 32px;
+    background: white;
+    box-shadow: 5px 5px 25px 4px rgba(128, 128, 128, 0.541);
+}
+.section2_div2 img{
+    margin-top: 50px;
+}
+.section2_div2 h3{
+    font-family: palaquin;
+    font-weight: bolder;
+    font-size: 28px;
+}
+.section2_div2 p{
+    font-family: montserrat;
+    font-size: 20px;
+    color:grey;
+}
+
+
+.section3_div3 img{
+    position: absolute;
+    top:480%;
+    left:4%;
+}
+.section3_div3 h2{
+    position: absolute;
+    top:492%;
+    right:21%;
+    font-family: palaquin;
+    font-weight: bolder;
+    font-size: 58px;
+}
+.section3_div3 span{
+    color: orange;
+}
+.section3_div3 p{
+    position: absolute;
+    top:508%;
+    right:2%;
+    font-family: montserrat;
+    font-size: 22px;
+    white-space: pre-wrap;
+    color: grey;
+}
+.section3_div3 button{
+    background-color: orange;
+    color: white;
+    border: 17px solid orange;
+    font-family: montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 555%;
+    right: 32%;
+}
+.section3_div3 div button{
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+    font-family: montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 555%;
+    padding: 17px;
+    right: 21%;
+}
+
+
+
+.section4_div4 h3{
+    font-family: palaquin;
+    font-weight: bolder;
+    font-size: 40px;
+    position: absolute;
+    top: 599%;
+    left: 37%;
+}
+.section4_div4 span{
+    color: orange;
+}
+.section4_div4 p{
+    font-family: montserrat;
+    font-size: 27px;
+    position: absolute;
+    top: 606%;
+    left: 20%;
+    white-space: pre-wrap;
+    color: grey;
+}
+
+.section4_div5 img{
+    position: absolute;
+    border-radius: 73px;
+    top: 633%;
+    left:19%;
+}
+.section4_div5 p{
+    position: absolute;
+    top: 650%;
+    left:5%;
+    white-space: pre-wrap;
+    font-family: montserrat;
+    font-size: 20px;
+    color: grey;
+}
+.section4_div5 h2{
+    position: absolute;
+    top: 667%;
+    left:19%;
+    font-family: montserrat;
+    font-size: 20px;
+    color: orange;
+}
+.section4_div5 h1{
+    position: absolute;
+    top: 672%;
+    left:16%;
+    font-family: palaquin;
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+
+
+.section4_div5_2 img{
+    position: absolute;
+    border-radius: 73px;
+    top: 633%;
+    right:19%;
+}
+.section4_div5_2 p{
+    position: absolute;
+    top: 650%;
+    right:8%;
+    white-space: pre-wrap;
+    font-family: montserrat;
+    font-size: 20px;
+    color: grey;
+}
+.section4_div5_2 h2{
+    position: absolute;
+    top: 667%;
+    right:19%;
+    font-family: montserrat;
+    font-size: 20px;
+    color: orange;
+}
+.section4_div5_2 h1{
+    position: absolute;
+    top: 672%;
+    right:13%;
+    font-family: palaquin;
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+
+.section5_div6 h1{
+    position: absolute;
+    top: 693%;
+    left: -5%;
+    font-family: palaquin;
+    font-weight: bolder;
+    font-size: 55px;
+    white-space: pre-wrap;
+}
+.section5_div6 span{
+    color: orange;
+}
+
+.section5_div6 input{
+    position: absolute;
+    top: 718%;
+    right:5%;
+    border: 2px solid grey;
+    height: 70px;
+    width: 500px;
+    border-radius: 50px;
+    font-size: 15px;
+    padding-left: 33px;
+    font-family: montserrat;
+}
+.section5_div6 button{
+    background-color: orange;
+    color: white;
+    border: 15px solid orange;
+    font-family: montserrat;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 719.5%;
+    right: 6%;
+}
+.section5_div6 input:focus{
+    outline: none;
+    border: 2px solid orange;
+}
+
+/* FOOTER Starts HERE */
+.footer{
+    background: black;
+    position:absolute;
+    bottom:-727%;
+    width: 100%;
+    height:500px;
+    cursor: pointer;
+}
+
+.foot_logo{
+    width: 150px;
+    height:80px;
+    position:absolute;
+    top:80px;
+    left:85px;
+}
+
+/* product menu  footer*/
+.h4_products{
+    margin-left:20px;
+    margin-bottom: 8px;
+    color:white;
+    font-size: 28px;
+}
+.product_menu{
+    color:grey;
+    position: absolute;
+    top: 80px;
+    left:590px;
+    text-align: justify;
+    line-height: 44px;
+    font-size: 18px;
+    font-family: montserrat;
+    
+}
+.product_menu ul li:hover{
+    color: orange;
+}
+.product_menu ul li{
+    list-style-type: none;
+}
+
+
+/* help footer menu */
+.h4_help{
+    margin-left:41px;
+    margin-bottom: 8px;
+    color:white;
+    font-size: 28px;
+}
+.help_menu{
+    color:grey;
+    position: absolute;
+    top: 80px;
+    right:456px;
+    text-align: justify;
+    line-height: 44px;
+    font-size: 18px;
+    font-family: montserrat;
+    list-style-type: none;
+}
+.help_menu ul li:hover{
+    color: orange;
+}
+.help_menu ul li{
+    list-style-type: none;
+}
+
+/* get in touch menu footer */
+
+.h4_getintouch{
+    margin-left:41px;
+    margin-bottom: 8px;
+    color:white;
+    font-size: 28px;
+}
+.getintouch_menu{
+    color:grey;
+    position: absolute;
+    top: 80px;
+    right:115px;
+    text-align: justify;
+    line-height: 44px;
+    font-size: 18px;
+    font-family: montserrat;
+    list-style-type: none;
+}
+.getintouch_menu ul li:hover{
+    color: orange;
+}
+.getintouch_menu ul li{
+    list-style-type: none;
+}
+
+.para{
+    color: grey;
+    position: absolute;
+    top:135px;
+    left:-35px;
+    white-space: pre-wrap;
+    text-align: justify;
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+.footer_img{
+    font-size: 80px;
+    position: absolute;
+    top: 295px;
+    left:102px;
+}
+.certification{
+    font-size: 20px;
+    font-weight: bold;
+    color:Black;
+    background-color: white;
+    position: absolute;
+    bottom: 27px;
+    font-family: montserrat;
+    left:35%;
+}
+/* Footer Ends Here */
+
+
+
+/* Responsive */
+
+@media screen and (max-width:768px){
+    @media screen and (max-width:500px){
+
+.logo{
+    position: absolute;
+    top: 5px;
+    left:20px;
+}
+
+.menu{
+  display: none;  
+}
+
+.res_img{
+    visibility: visible;
+    position: absolute;
+    top: 28px;
+    right: 48px;
+}
+
+.sec1_img{
+    position: absolute;
+    left:5%;
+    top:100%;
+}
+.sec1_h1{
+    font-size:57px;
+    left: -202px;
+    top:-51px;
+}
+.h4_sec{
+    left: 26px;
+}
+
+.sec1_p1{
+    font-size: 21px;
+    left: -56px;
+    top:286px;
+}
+
+.btn{
+    top: 475px;
+    left: 27px;
+}
+.sec1_div{
+    position: absolute;
+    top: 119%;
+    left: 0px;
+    
+}
+.sec1_p{
+    font-size: 40px;
+}
+.sec1_img img{
+    left: -48px;
+    height: 726px;
+    width: 500px;
+    top: 31px;
+    border-radius: 0px;
+}
+.small_pic1{
+    display: none;
+}
+.sec1_h2 {
+    font-size: 47px;
+    top: 211%;
+    left: 8px;
+}
+.sec1_para {
+    
+    top: 225%;
+    left: -59px;
+
+    font-size: 16px;
+}
+
+.sec2_div {
+    top: 239%;
+    left: 39px;
+}
+.sec2_div2{
+    top: 292%;
+    left: 39px;
+}
+.sec2_div3{
+    top: 347%;
+    left:39px;
+}
+
+.sec2_div4{
+    top: 401%;
+    right: 326px;
+}
+.section2_div h2 {
+    top: 526%;
+    left: -29%;
+    font-size: 43px;
+}
+.section2_div p {
+    top: 562%;
+    left: -9%;
+
+    font-size: 16px;
+}
+
+.section2_div button {
+    top: 593%;
+    left: 27px;
+}
+.section2_div img {
+    top: 612%;
+    width: 483px;
+    right: 0%;
+    border-radius: 50px;
+}
+
+
+.section2_div2 {
+    flex-flow: column;
+    top: 698%;
+}
+.section3_div3 h2 {
+    top: 869%;
+    right: 26%;
+}
+
+.section3_div3 p {
+    top: 885%;
+    left: -10%;
+    font-size: 16px;
+}
+
+.section3_div3 button {
+    left: 42px;
+    top: 918%;
+    width: 175px;
+}
+.section3_div3 div button {
+    top: 918%;
+    padding: 19px;
+    left: 56%;
+    width: 167px;
+}
+.section3_div3 img {
+    top: 915%;
+    left: 4%;
+    width: 454px;
+}
+.section4_div4 h3 {
+    font-size: 47px;
+    top: 1017%;
+    left: 9%;
+}
+
+.section4_div4 p {
+    font-size: 16px;
+    top: 1043%;
+    left: -12%;
+}
+
+.section4_div5 img {
+    top: 1064%;
+    left: 35%;
+}
+.section4_div5 p {
+    position: absolute;
+    top: 1081%;
+    font-size: 18px;
+    left: 0%;
+}
+.section4_div5 h2 {
+    position: absolute;
+    top: 1098%;
+    left: 182px;
+}
+
+.section4_div5 h1 {
+    position: absolute;
+    top: 1103%;
+    left: 29%;
+}
+
+.section4_div5_2 img {
+    top: 1126%;
+    left: 35%;
+}
+
+.section4_div5_2 h1 {
+    top: 1144%;
+    right: 23%;
+}
+
+.section4_div5_2 p {
+    top: 1144%;
+    right: 9%;
+    font-size: 18px;
+}
+
+.section4_div5_2 h2 {
+    top: 1161%;
+    right: 40%;
+}
+.section4_div5_2 h1 {
+    top: 1166%;
+    right: 23%;
+}
+.section5_div6 h1 {
+
+    top: 1182%;
+    left: -27%;
+    font-size: 45px;
+}
+.section5_div6 input {
+
+    top: 1224%;
+    right: 5%;
+    width: 394px;
+}
+
+.section5_div6 button {
+    width: 411px;
+    top: 1240%;
+}
+
+.footer {
+    bottom: -1330%;
+    width: 100%;
+    height: 154%;
+}
+.foot_logo {
+    left: 24px;
+}
+.para {
+    top: 121px;
+    left: -111px;
+}
+.footer_img {
+    top: 279px;
+    left: 31px;
+}
+.product_menu {
+    top: 375px;
+    left: 3px;
+}
+.help_menu {
+    color: grey;
+    position: absolute;
+    top: 375px;
+    right: 61px;
+}
+.getintouch_menu {
+    top: 723px;
+    right: 271px;
+}
+
+.certification {
+    font-size: 17px;
+    bottom: 8%;
+    left: 0%;
+
+}
+
+
+}
+}
